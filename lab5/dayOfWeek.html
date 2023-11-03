@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>День народження</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/image/logo.PNG" alt="logo" />
+      </div>
+      <div class="nav">
+        <a href="index.html">Головна</a>
+      </div>
+    </header>
+    <main id="main-dayOfWeek">
+      <form id="form-birthday">
+        <label for="birthday-date">Дата народження:</label>
+        <input type="date" id="birthday-date" />
+        <button type="button" id="birthday-button">
+          Дізнатися день неділі
+        </button>
+      </form>
+      <div id="dayOfWeek"></div>
+    </main>
+    <script src="/js/dayOfWeek.js"></script>
+  </body>
+</html>
